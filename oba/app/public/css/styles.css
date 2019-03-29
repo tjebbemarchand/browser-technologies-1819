@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Avenir', sans-serif;
+}
+
+main {
+    margin: 25px;
+}
+
+/**************************************
+HOMEPAGE
+**************************************/
+/* HEADER */
+.header {
+    background-color: #F8A41E;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 12px;
+}
+
+.search__input {
+    flex-basis: 40%;
+
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+}
+
+.search__submit {
+    flex-basis: 5%;
+
+    border: none;
+    background-color: #EB1F25;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+/* POPULAR SECTION */
+.popular-section {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
+}
+
+.popular-title {
+    text-align: center;
+}
+
+/**************************************
+SEARCH PAGE
+**************************************/
+/* BOOKS SECTION */
+.section-books {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
+}
+
+/* SEARCHED BOOK SECTION */
+.searched-book {
+    width: 175px;
+}
+
+.searched-book img {
+    width: 100%;
+}
+
+/* BOOKS RESULTS */
+.book-result__image {
+    height: 200px;
+    overflow: hidden;
+    transition: all 200ms ease;
+}
+
+.book-result__image img {
+    width: 100%;
+}
+
+.book-result__image:hover {
+    transform: scale(1.08);
+    transform-origin: bottom;
+    cursor: pointer;
+}
+
+.book-result__image:hover img {
+    filter: opacity(0.5);
+}
+
+/**************************************
+DETAILPAGE
+**************************************/
+.details-overview {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-column-gap: 25px;
+
+    width: 60%;
+    margin: 25px auto 0;
+}
+
+.details-overview__img {
+    width: 100%;
+}
+
+.details-overview__img img {
+    width: 100%;
+}
+
+.details-overview__details .details__title {
+    margin: 0;
+}
+
+.details-overview__details .details__author {
+    margin-top: 10px;
+}
+
+.details-overview__details .details__information {
+    padding-left: 20px;
+}
+
+
+/* Loader */
+.loader {
+    z-index: 1;
+    position: fixed;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.loader svg {
+    height: 5.5rem;
+    width: 5.5rem;
+    animation: rotate 1.5s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

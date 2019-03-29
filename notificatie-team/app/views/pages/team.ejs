@@ -1,0 +1,25 @@
+<% include ../partials/header %>
+
+<% if(teams) { %>
+    <section class="section-current-scores">
+        <img src="../img/teams/<%= teams[0].logo %>" alt="<%= teams[0].team %> logo" class="team-a">
+        <div class="scores">
+            <h3><span class="score-a"><%= teams[0].doelpunten %></span> - <span class="score-b"><%= teams[1].doelpunten %></span></h3>
+            <h4 class="scores-live">Live</h4>
+        </div>
+        <img src="../img/teams/<%= teams[1].logo %>" alt="<%= teams[1].team %> logo" class="team-b">
+    </section>
+    
+    <h1 class="current-team"><%= teams[0].team %></h1>
+    <section class="section-status">
+        <% teams[0].updates.forEach(function(update) { %>
+            <div class="status__update" style="background-color: <%= randomColor %>">
+                <p><%= update %></p>
+            </div>
+        <% }) %>
+    </section>
+<% } else { %>
+    <h1>Error</h1>
+<% } %>
+
+<% include ../partials/footer %>

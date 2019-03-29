@@ -1,0 +1,23 @@
+<% include ../partials/header %>
+
+<% if (data) { %>
+
+    <div class="details-overview">
+        <div class="details-overview__img">
+            <img src="<%= data.cover_image %>"></img>
+        </div>
+        <div class="details-overview__details">
+            <h2 class="details__title"><%= data.title %></h2>
+            <h3 class="details__author"><%= data.author %></h3>
+            <p class="details__description"><%= data.description %></p>
+            <ul class="details__information">
+                <li><%= data.language %></li>
+                <li><%= data.publisher %></li>
+                <li><%= data.publication_year %></li>
+            </ul>
+        </div>
+    </div>
+
+<% } %>
+
+<% include ../partials/footer %>

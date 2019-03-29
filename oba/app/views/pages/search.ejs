@@ -1,0 +1,23 @@
+<% include ../partials/header %>
+
+<% if (data) { %>
+    
+    <h2>Als je '<%= data[0].title %>' leuk vond.</h2>
+    <div class="searched-book">
+        <img src="<%= data[0].cover_image %>"></img>
+    </div>
+
+    <h2>Dan bevelen wij deze boeken aan...</h2>
+    <section class="section-books">
+        <% data.slice(1, data.length).forEach(function(book) { %>
+            <a tabindex="0" href="/detailpage/<%= book.isbn %>" class="book-result">
+                <div class="book-result__image">
+                    <img src="<%= book.cover_image %>" alt="Boek cover: <%= book.title %>"></img>
+                </div>
+            </a>
+        <% }); %>
+    </section>
+
+<% } %>
+
+<% include ../partials/footer %>

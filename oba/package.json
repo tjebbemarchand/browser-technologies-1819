@@ -1,0 +1,28 @@
+{
+  "name": "oba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "compress:css": "node-sass public/css/styles.css public/css/styles.min.css --output-style compressed",
+    "build:css": "npm-run-all compress:css"
+  },
+  "author": "T. Marchand",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.10",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^6.1.2",
+    "uglifycss": "0.0.29"
+  }
+}

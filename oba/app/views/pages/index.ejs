@@ -1,0 +1,16 @@
+<% include ../partials/header %>
+
+<% if (data) { %>
+    <h1 class="popular-title">Populaire boeken deze week</h1>
+    <section class="popular-section">
+    <% data.forEach(function(book) { %>
+        <a tabindex="0" href="detailpage/<%= book.isbn %>" class="book-result">
+            <div class="book-result__image">
+                <img src="<%= book.cover_image %>" alt="Boek cover: <%= book.title %>"></img>
+            </div>
+        </a>
+    <% }) %>
+    </section>
+<% } %>
+
+<% include ../partials/footer %>

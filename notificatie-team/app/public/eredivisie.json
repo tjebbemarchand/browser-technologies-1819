@@ -1,0 +1,183 @@
+{
+    "teams": [{
+            "team": "ADO Den Haag",
+            "logo": "ado-den-haag-logo.png",
+            "link": "ado-den-haag",
+            "updates": [
+                "Minuut: 3",
+                "Minuut: 42"
+            ],
+            "doelpunten": "2"
+        },
+        {
+            "team": "Ajax",
+            "logo": "ajax-logo.png",
+            "link": "ajax",
+            "updates": [
+                "Minuut: 53"
+            ],
+            "doelpunten": "1"
+        },
+        {
+            "team": "AZ",
+            "logo": "az-logo.png",
+            "link": "az",
+            "updates": [
+                "Minuut: 5",
+                "Minuut: 23",
+                "Minuut: 71",
+                "Minuut: 88"
+            ],
+            "doelpunten": "4"
+        },
+        {
+            "team": "De Graafschap",
+            "logo": "de-graafschap-logo.png",
+            "link": "de-graafschap",
+            "updates": [
+                "Minuut: 6",
+                "Minuut: 76",
+                "Minuut: 80"
+            ],
+            "doelpunten": "3"
+        },
+        {
+            "team": "FC Emmen",
+            "logo": "fc-emmen-logo.png",
+            "link": "fc-emmen",
+            "updates": [
+                "Minuut: 4",
+                "Minuut: 8",
+                "Minuut: 33",
+                "Minuut: 46",
+                "Minuut: 87"
+            ],
+            "doelpunten": "5"
+        },
+        {
+            "team": "FC Groningen",
+            "logo": "fc-groningen-logo.png",
+            "link": "fc-groningen",
+            "updates": [
+                "Minuut: 60",
+                "Minuut: 81",
+                "Minuut: 88"
+            ],
+            "doelpunten": "3"
+        },
+        {
+            "team": "FC Utrecht",
+            "logo": "fc-utrecht-logo.png",
+            "link": "fc-utrecht",
+            "updates": [
+                
+            ],
+            "doelpunten": "0"
+        },
+        {
+            "team": "FC Vitesse",
+            "logo": "fc-vitesse-logo.png",
+            "link": "fc-vitesse",
+            "updates": [
+                
+            ],
+            "doelpunten": "0"
+        },
+        {
+            "team": "Feyenoord",
+            "logo": "feyenoord-logo.png",
+            "link": "feyenoord",
+            "updates": [
+                "Minuut: 7"
+            ],
+            "doelpunten": "1"
+        },
+        {
+            "team": "Fortuna",
+            "logo": "fortuna-logo.png",
+            "link": "fortuna",
+            "updates": [
+                
+            ],
+            "doelpunten": "0"
+        },
+        {
+            "team": "Heracles",
+            "logo": "heracles-logo.png",
+            "link": "heracles",
+            "updates": [
+                "Minuut: 66",
+                "Minuut: 69",
+                "Minuut: 87"
+            ],
+            "doelpunten": "3"
+        },
+        {
+            "team": "NAC Breda",
+            "logo": "nac-breda-logo.png",
+            "link": "nac-breda",
+
+            "updates": [
+                "Minuut: 23"
+            ],
+            "doelpunten": "1"
+        },
+        {
+            "team": "PEC Zwolle",
+            "logo": "pec-zwolle-logo.png",
+            "link": "pec-zwolle",
+            "updates": [
+                "Minuut: 28",
+                "Minuut: 41"
+            ],
+            "doelpunten": "2"
+        },
+        {
+            "team": "PSV",
+            "logo": "psv-logo.png",
+            "link": "psv",
+            "updates": [
+                
+            ],
+            "doelpunten": "0"
+        },
+        {
+            "team": "SBV Excelsior",
+            "logo": "sbv-excelsior-logo.png",
+            "link": "sbv-excelsior",
+            "updates": [
+                
+            ],
+            "doelpunten": "0"
+        },
+        {
+            "team": "SC Heerenveen",
+            "logo": "sc-heerenveen-logo.png",
+            "link": "sc-heerenveen",
+            "updates": [
+                "Minuut: 13"
+            ],
+            "doelpunten": "1"
+        },
+        {
+            "team": "VVV Venlo",
+            "logo": "vvv-venlo-logo.png",
+            "link": "vvv-venlo",
+            "updates": [
+                "Minuut: 83",
+                "Minuut: 87"
+            ],
+            "doelpunten": "2"
+        },
+        {
+            "team": "Willem 2",
+            "logo": "willem-2-logo.png",
+            "link": "willem-2",
+            "updates": [
+                "Minuut: 9",
+                "Minuut: 47"
+            ],
+            "doelpunten": "2"
+        }
+    ]
+}

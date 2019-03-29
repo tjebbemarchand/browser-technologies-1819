@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(../img/background-image.jpg);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+}
+
+.section-current-scores {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.section-current-scores img {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+.section-current-scores .scores {
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0 100px;
+}
+
+.section-current-scores .scores h3 {
+    margin: 0;
+}
+
+.section-current-scores .scores .scores-live {
+    color: green;
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.team-section {
+    /* display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+
+    margin: 20px; */
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.team-section__club {
+    padding: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+    transition: all 300ms ease;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 15%;
+    margin: 5px;
+}
+
+.team-section__club:hover,
+.team-section__club:focus {
+    border: 2px solid black;
+}
+
+.club__img {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.team-section__club img {
+    max-width: 90%;
+    margin: auto;
+}
+
+.team-section__club h3 {
+    text-align: center;
+    margin: 10px 0 0;
+    color: black;
+}
+
+.section-status {
+    width: 75%;
+    margin: auto;
+}
+
+.status__update {
+    background-color: red;
+
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.status__update p {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .section-current-scores {
+        padding: 5px;
+    }
+
+    .section-current-scores img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .section-current-scores .scores {
+        font-size: 50px;
+        margin: 0 50px;
+    }
+
+    .section-current-scores .scores .scores-live {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .team-section__club {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .team-section__club {
+        width: 33%;
+    }
+
+    .team-section__club img {
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .section-current-scores {
+        display: block;
+    }
+
+    .section-current-scores {
+        padding: 5px;
+        text-align: center;
+        margin: 20px 0 0;
+    }
+
+    .section-current-scores img {
+        max-width: 75px;
+        max-height: 75px;
+    }
+
+    .section-current-scores .scores {
+        font-size: 40px;
+        margin: 20px 40px;
+    }
+
+    .section-current-scores .scores .scores-live {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .team-section__club {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    .team-section {
+        margin: 0 50px 50px;
+    }
+
+    .team-section__club {
+        width: 90%;
+    }
+
+    .team-section__club img {
+        margin: 0 auto 25px;
+        text-align: center;
+    }
+
+    .team-section__club h3 {
+        font-size: 16px;
+    }
+
+    .team-section__club img {
+        max-width: 60%;
+    }
+}
+
+@media only screen and (max-width: 245px) {
+    h1 {
+        font-size: 16px;
+    }
+
+    .section-current-scores .scores {
+        font-size: 24px;
+    }
+
+    .team-section {
+        margin: 5px;
+        grid-row-gap: 5px;
+    }
+}
