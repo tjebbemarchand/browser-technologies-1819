@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-app.use(express.static('./public'));
+app.use(express.static('app/public/'));
 
 app.get('/', renderHomepage);
 app.get('/team/:team', renderOverviewPage);
@@ -62,7 +62,7 @@ function generateRandomNumbers() {
     randomNumbers.push(Math.round(Math.random() * (18 - 1) + 1));
     randomNumbers.push(Math.round(Math.random() * (18 - 1) + 1));
 
-    if(randomNumbers[0] === randomNumbers[1]) {
+    while(randomNumbers[0] === randomNumbers[1]) {
         while(randomNumbers.length > 0) {
             randomNumbers.pop();
         }

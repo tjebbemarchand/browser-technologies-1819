@@ -4,7 +4,8 @@
   "description": "Get notifications from your favorite Eredivisie team",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app/index.js",
+    "dev": "nodemon app/index.js"
   },
   "author": "T. Marchand",
   "license": "ISC",

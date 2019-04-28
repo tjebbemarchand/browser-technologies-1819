@@ -4,8 +4,8 @@
             "logo": "ado-den-haag-logo.png",
             "link": "ado-den-haag",
             "updates": [
-                "Minuut: 3",
-                "Minuut: 42"
+                "Minuut: 42: ADO Den Haag heeft gescoord. Ze hebben nu 2 doelpunt(en)",
+                "Minuut: 3: ADO Den Haag heeft gescoord. Ze hebben nu 1 doelpunt(en)"
             ],
             "doelpunten": "2"
         },
@@ -14,7 +14,7 @@
             "logo": "ajax-logo.png",
             "link": "ajax",
             "updates": [
-                "Minuut: 53"
+                "Minuut: 53: Ajax heeft gescoord. Ze hebben nu 1 doelpunt(en)"
             ],
             "doelpunten": "1"
         },
@@ -23,10 +23,10 @@
             "logo": "az-logo.png",
             "link": "az",
             "updates": [
-                "Minuut: 5",
-                "Minuut: 23",
-                "Minuut: 71",
-                "Minuut: 88"
+                "Minuut: 88: AZ heeft gescoord. Ze hebben nu 4 doelpunt(en)",
+                "Minuut: 71: AZ heeft gescoord. Ze hebben nu 3 doelpunt(en)",
+                "Minuut: 23: AZ heeft gescoord. Ze hebben nu 2 doelpunt(en)",
+                "Minuut: 5: AZ heeft gescoord. Ze hebben nu 1 doelpunt(en)"
             ],
             "doelpunten": "4"
         },
@@ -35,9 +35,9 @@
             "logo": "de-graafschap-logo.png",
             "link": "de-graafschap",
             "updates": [
-                "Minuut: 6",
-                "Minuut: 76",
-                "Minuut: 80"
+                "Minuut: 80: De Graafschap heeft gescoord. Ze hebben nu 3 doelpunt(en)",
+                "Minuut: 76: De Graafschap heeft gescoord. Ze hebben nu 2 doelpunt(en)",
+                "Minuut: 6: De Graafschap heeft gescoord. Ze hebben nu 1 doelpunt(en)"
             ],
             "doelpunten": "3"
         },
@@ -46,11 +46,11 @@
             "logo": "fc-emmen-logo.png",
             "link": "fc-emmen",
             "updates": [
-                "Minuut: 4",
-                "Minuut: 8",
-                "Minuut: 33",
-                "Minuut: 46",
-                "Minuut: 87"
+                "Minuut: 87: FC Emmen heeft gescoord. Ze hebben nu 5 doelpunt(en)",
+                "Minuut: 46: FC Emmen heeft gescoord. Ze hebben nu 4 doelpunt(en)",
+                "Minuut: 8: FC Emmen heeft gescoord. Ze hebben nu 2 doelpunt(en)",
+                "Minuut: 33: FC Emmen heeft gescoord. Ze hebben nu 3 doelpunt(en)",
+                "Minuut: 4: FC Emmen heeft gescoord. Ze hebben nu 1 doelpunt(en)"
             ],
             "doelpunten": "5"
         },
@@ -59,9 +59,9 @@
             "logo": "fc-groningen-logo.png",
             "link": "fc-groningen",
             "updates": [
-                "Minuut: 60",
-                "Minuut: 81",
-                "Minuut: 88"
+                "Minuut: 88: FC Groningen heeft gescoord. Ze hebben nu 3 doelpunt(en)",
+                "Minuut: 81: FC Groningen heeft gescoord. Ze hebben nu 2 doelpunt(en)",
+                "Minuut: 60: FC Groningen heeft gescoord. Ze hebben nu 1 doelpunt(en)"
             ],
             "doelpunten": "3"
         },
@@ -88,7 +88,7 @@
             "logo": "feyenoord-logo.png",
             "link": "feyenoord",
             "updates": [
-                "Minuut: 7"
+                "Minuut: 7: Feyenoord heeft gescoord. Ze hebben nu 1 doelpunt(en)"
             ],
             "doelpunten": "1"
         },
@@ -106,9 +106,9 @@
             "logo": "heracles-logo.png",
             "link": "heracles",
             "updates": [
-                "Minuut: 66",
-                "Minuut: 69",
-                "Minuut: 87"
+                "Minuut: 87: Heracles heeft gescoord. Ze hebben nu 3 doelpunt(en)",
+                "Minuut: 69: Heracles heeft gescoord. Ze hebben nu 2 doelpunt(en)",
+                "Minuut: 66: Heracles heeft gescoord. Ze hebben nu 1 doelpunt(en)"
             ],
             "doelpunten": "3"
         },
@@ -116,9 +116,9 @@
             "team": "NAC Breda",
             "logo": "nac-breda-logo.png",
             "link": "nac-breda",
-
+            
             "updates": [
-                "Minuut: 23"
+                "Minuut: 23: NAC Breda heeft gescoord. Ze hebben nu 1 doelpunt(en)"
             ],
             "doelpunten": "1"
         },
@@ -127,8 +127,8 @@
             "logo": "pec-zwolle-logo.png",
             "link": "pec-zwolle",
             "updates": [
-                "Minuut: 28",
-                "Minuut: 41"
+                "Minuut: 41: PEC Zwolle heeft gescoord. Ze hebben nu 2 doelpunt(en)",
+                "Minuut: 28: PEC Zwolle heeft gescoord. Ze hebben nu 1 doelpunt(en)"
             ],
             "doelpunten": "2"
         },
@@ -155,7 +155,7 @@
             "logo": "sc-heerenveen-logo.png",
             "link": "sc-heerenveen",
             "updates": [
-                "Minuut: 13"
+                "Minuut: 13: SC Heerenveen heeft gescoord. Ze hebben nu 1 doelpunt(en)"
             ],
             "doelpunten": "1"
         },
@@ -164,8 +164,8 @@
             "logo": "vvv-venlo-logo.png",
             "link": "vvv-venlo",
             "updates": [
-                "Minuut: 83",
-                "Minuut: 87"
+                "Minuut: 87: VVV Venlo heeft gescoord. Ze hebben nu 2 doelpunt(en)",
+                "Minuut: 83: VVV Venlo heeft gescoord. Ze hebben nu 1 doelpunt(en)"
             ],
             "doelpunten": "2"
         },
@@ -174,8 +174,8 @@
             "logo": "willem-2-logo.png",
             "link": "willem-2",
             "updates": [
-                "Minuut: 9",
-                "Minuut: 47"
+                "Minuut: 47: Willem 2 heeft gescoord. Ze hebben nu 2 doelpunt(en)",
+                "Minuut: 9: Willem 2 heeft gescoord. Ze hebben nu 1 doelpunt(en)"
             ],
             "doelpunten": "2"
         }

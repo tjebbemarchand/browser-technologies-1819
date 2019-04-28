@@ -17,13 +17,13 @@ For the selected team you see the current score and below that all updates that 
 I build the app to render it on the server. This way the whole app will still work if you have your JavaScript disabled.
 
 ### Functional layer
-The core functionality will work even if you have no CSS or JavaScript enabled. The app will look less attractive, but everything excluding the notifications will still work.
+The core functionality will work even if you have no CSS or JavaScript enabled. The app will look less attractive, but everything excluding the notifications will still work. You get asked if you want to receive emails instead of notifications if JavaScript is disabled.
 
 ### Usable layer
 If CSS is enabled, the app looks at its best with colours and styling. The app still works even without JavaScript. But there is not auto reloading or real time notifications.
 
 ### Pleasurable layer
-If everything is turned on, you will receive notifications for any status updates. Also the page will automatically reload if there are updates available. If JavaScript is turned off, you have to manually refresh the page for the updates to show up.
+If everything is turned on, you will receive notifications for any status updates. Also the page will automatically reload if there are updates available. If JavaScript is turned off, the page will reload every minute automatically.
 
 ## What is progressive enhancement?
 Progressive Enhancement is a methodology that allows web developers to concentrate on building the best possible websites while balancing the issues inherent in those websites being accessed by multiple unknown user-agents.
@@ -60,7 +60,7 @@ The screenreader reads everything as shown on the page.
 ## Browser Compatibility
 If you look at my main feature, notifications. There is no support at some of the browsers. I checked caniuse.com to check which browsers are not working.
 
-![Load time client side rendering](./docs/caniuse-notification.jpg)
+![Notifications browser support](./docs/caniuse-notification.jpg)
 
 Here you can see that:
 - Safari iOS
@@ -71,4 +71,30 @@ Here you can see that:
 - QQ Browser
 - Baidu Browser
 
-Are not supporting notifications
+Are not supporting notifications.
+
+## Second itaration
+With the feedback session i got some points where i needed to work on.
+ 1. Add score to the update banners
+ 2. Add a meta tag for refreshing if JavaScript is disabled
+ 3. Ask to user for notificiations on the team page
+ 4. Clear the alt tags for the logos
+ 5. Ask for an email if notifications are not supported or JavaScript is disabled
+
+These points i worked on to make the app better.
+ 1. I addedd a more descriptive message to the update banners. Now the score is included for the team you are supporting.
+![Update banners](./docs/second-iteration/update-banners.jpg)
+
+ 2. I added the no script tag in the header if JavaScript is diabled or is not able to load.
+
+```javascript 
+<noscript>
+	<meta http-equiv="refresh" content="60">
+</noscript>
+```
+
+3. If JavaScript is enabled, you get asked if you want to receive notifications. If you click on the link, the browser asks you if you want to receive them. This is happening if you click on you favorite team.
+
+4. I cleared all the alt tags on the logo's. The alt tags are not necessary because the team name is rendered below the image.
+
+5. If JavaScript is disabled, or notifications are not supported, the browser asks you if you want to receive e-mail notifications instead.
