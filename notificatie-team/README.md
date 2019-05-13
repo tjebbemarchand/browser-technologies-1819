@@ -88,7 +88,7 @@ These points i worked on to make the app better.
  1. I addedd a more descriptive message to the update banners. Now the score is included for the team you are supporting.
 ![Update banners](./docs/second-iteration/update-banners.jpg)
 
- 2. I added the no script tag in the header if JavaScript is diabled or is not able to load.
+ 2. I added the no script tag in the header if JavaScript is diabled or is not able to load. This way, the page will auto reload every 60 seconds. If JavaScript is enabled, the browser will automatically reload if there is an update.
 
 ```javascript 
 <noscript>
@@ -98,6 +98,6 @@ These points i worked on to make the app better.
 
 3. If JavaScript is enabled, you get asked if you want to receive notifications. If you click on the link, the browser asks you if you want to receive them. This is happening if you click on you favorite team.
 
-4. I cleared all the alt tags on the logo's. The alt tags are not necessary because the team name is rendered below the image.
+4. I cleared all the alt tags on the logo's. The alt tags are not necessary because the team name is rendered below the image. I kept the alt tags however on the current team scores. This is because the neam of the team is not already displayed here.
 
 5. If JavaScript is disabled, or notifications are not supported, the browser asks you if you want to receive e-mail notifications instead.
