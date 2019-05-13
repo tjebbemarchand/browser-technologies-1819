@@ -23,7 +23,6 @@
                 checkQuerySelector('.score-a').innerHTML = updatedScore.toString();
 
                 notification.onclick = function (e) {
-                    // window.location = `http://localhost:3000/team/${team}`;
                     window.focus();
                 }
             }, 3500);
@@ -45,7 +44,6 @@
             }
 
             function enableNotifications() {
-                console.log('test');
                 if(checkNotification()) {
                     if(Notification.permission === 'default') {
                         Notification.requestPermission(function (permission) {
@@ -68,7 +66,6 @@
                     }
                 }
             }
-
         }
         setInterval(function() {
             window.location.reload(); 

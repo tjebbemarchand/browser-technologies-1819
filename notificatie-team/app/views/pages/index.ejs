@@ -2,12 +2,12 @@
 
 <% if(currentGame) { %>
     <section class="section-current-scores">
-        <img src="img/teams/<%= currentGame[0].logo %>" alt="" class="team-a">
+        <img src="img/teams/<%= currentGame[0].logo %>" alt="<%= currentGame[0].team %>" class="team-a">
         <div class="scores">
             <h3><span class="score-a"><%= currentGame[0].doelpunten %></span> - <span class="score-b"><%= currentGame[1].doelpunten %></span></h3>
             <h4 class="scores-live">Live</h4>
         </div>
-        <img src="/img/teams/<%= currentGame[1].logo %>" alt="" class="team-b">
+        <img src="/img/teams/<%= currentGame[1].logo %>" alt="<%= currentGame[1].team %>" class="team-b">
     </section>
 <% } %>
 
