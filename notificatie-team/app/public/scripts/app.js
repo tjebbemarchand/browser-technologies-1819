@@ -73,11 +73,10 @@
     }
 
     function checkNotification() {
-        if ("Notification" in window) {
+        if("Notification" in window) {
             return true;
-        } else {
-            alert('Your browser does not support notifications');
         }
+        // "Notification" in window ? true : false;
     }
 
     function checkQuerySelector(query) {
